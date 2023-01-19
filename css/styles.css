@@ -468,6 +468,11 @@ ul {
   padding-top: 12px;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 .social-margin {
   margin-left: 70px;
   width: 206px;
@@ -476,18 +481,29 @@ ul {
 
 .newsletter-margin {
   margin-left: 78px;
-  height: 86px;
   width: 570px;
 }
 
 .button-margin {
-  padding-left: 42px;
+  display: flex;
+  align-items: center;
+  margin-top: 36px;
   margin-left: 12px;
+  padding-left: 42px;
+  width: 200px;
+  height: 50px;
 }
 
 .send-icon {
-  padding-left: 24px;
-  padding-right: 28px;
+  margin-left: 24px;
+}
+
+input[type="email"] {
+  color: var(--white-text);
+}
+
+input:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .newsletter-form {
@@ -497,6 +513,7 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 16px;
+  margin-top: 20px;
 }
 
 .social-media-title {
@@ -506,7 +523,6 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 20px;
 }
 
 .social-media-icon:not(:last-child) {
@@ -530,6 +546,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color, fill;
+  margin-top: 20px;
 }
 
 .social-media-icon-border:hover,
