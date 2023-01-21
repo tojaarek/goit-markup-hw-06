@@ -752,7 +752,7 @@ input.newsletter-form:focus {
   color: rgba(117, 117, 117, 0.5);
 }
 
-svg.form-icon:focus,
+label.label-margin:focus,
 textarea.input-service-order:focus,
 input.input-service-order:focus {
   border: 1px solid var(--accent-color);
