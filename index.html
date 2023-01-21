@@ -381,6 +381,44 @@
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
+      <form class="column modal-align" name="serviceOrderForm" autocomplete="on">
+        <div class="column modal-align" role="group" aria-labelledby="service-head">
+          <p class="form-header" id="service-head">Zostaw swoje dane w formularzu poniżej</p>
+          <label class="label-margin" for="service-name">
+            Imię
+            <input class="input-service-order input-height" id="service-name" type="text" name="serviceOrderName" />
+            <svg class="form-icon icon-1" width="12" height="12">
+              <use href="./images/icons.svg#icon-name"></use>
+            </svg>
+          </label>
+          <label class="label-margin" for="service-phone">
+            Telefon
+            <input class="input-service-order input-height" id="service-phone" type="tel" name="serviceOrderPhone" />
+            <svg class="form-icon icon-2" width="13" height="13">
+              <use href="./images/icons.svg#icon-phone-form"></use>
+            </svg>
+          </label>
+          <label class="label-margin" for="service-email">
+            E-mail
+            <input class="input-service-order input-height" id="service-email" type="email" name="serviceOrderEmail" />
+            <svg class="form-icon icon-1" width="15" height="12">
+              <use href="./images/icons.svg#icon-envelope-form"></use>
+            </svg>
+          </label>
+          <label class="label-margin" for="service-message">
+            Komentarz
+            <textarea class="input-service-order resize-no" id="service-message" type="text"
+              placeholder="Wprowadź tekst" name="serviceOrderMessage" rows="6">
+          </textarea>
+          </label>
+          <label class="label-terms" for="service-terms">
+            <input id="service-terms" type="checkbox" name="serviceOrderTerms" />
+            Oświadczam iż akceptuję <a href="#" class="terms">Regulamin</a> i <a href="#" class="terms">Politykę
+              Prywatności</a>.
+          </label>
+        </div>
+        <button class="service-order button-send" type="submit">Wyślij</button>
+      </form>
     </div>
   </div>
   <script src="./js/modal.js"></script>
