@@ -746,9 +746,6 @@ input.newsletter-form:focus {
   border-radius: 4px;
   display: flex;
   margin-top: 4px;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 
 .input-service-order::placeholder {
