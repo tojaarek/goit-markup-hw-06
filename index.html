@@ -388,7 +388,8 @@
             <li class="label-margin">
               <label class="label-margin" for="service-name">
                 Imię
-                <input class="input-service-order input-height" id="service-name" type="text" name="serviceOrderName" />
+                <input class="input-service-order input-height" id="service-name" type="text" name="serviceOrderName"
+                  pattern="^[a-zA-Z]{3,}$" title="Minimum 3 znaki" required />
                 <svg class="form-icon icon-1" width="12" height="12">
                   <use href="./images/icons.svg#icon-name"></use>
                 </svg>
@@ -397,8 +398,9 @@
             <li class="label-margin">
               <label class="label-margin" for="service-phone">
                 Telefon
-                <input class="input-service-order input-height" id="service-phone" type="tel"
-                  name="serviceOrderPhone" />
+                <input class="input-service-order input-height" id="service-phone" type="tel" name="serviceOrderPhone"
+                  pattern="^[0-9]{9}$" title="Numer telefonu w formacie &quot;111111111&quot; bez numeru kierunkowego"
+                  required />
                 <svg class="form-icon icon-2" width="13" height="13">
                   <use href="./images/icons.svg#icon-phone-form"></use>
                 </svg>
@@ -407,8 +409,8 @@
             <li class="label-margin">
               <label class="label-margin" for="service-email">
                 E-mail
-                <input class="input-service-order input-height" id="service-email" type="email"
-                  name="serviceOrderEmail" />
+                <input class="input-service-order input-height" id="service-email" type="email" name="serviceOrderEmail"
+                  required />
                 <svg class="form-icon icon-1" width="15" height="12">
                   <use href="./images/icons.svg#icon-envelope-form"></use>
                 </svg>
