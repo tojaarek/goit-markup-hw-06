@@ -766,6 +766,7 @@ input.newsletter-form:focus {
   fill: var(--accent-color);
 }
 
+textarea.input-service-order:focus,
 input.input-service-order:focus {
   border: 1px solid var(--accent-color);
 }
