@@ -231,7 +231,6 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1600px;
-  width: 100%;
 }
 
 .box3 {
@@ -639,7 +638,12 @@ input.newsletter-form:focus {
   justify-content: center;
 }
 
+.list-project-filter {
+  padding-top: 94px;
+}
+
 .section-projects {
+  padding-top: 50px;
   padding-bottom: 94px;
 }
 
@@ -740,12 +744,18 @@ input.newsletter-form:focus {
   justify-content: center;
 }
 
+.modal-width {
+  width: 100%;
+  padding: 0 40px;
+}
+
 .input-service-order {
-  width: 448px;
+  width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   display: flex;
   margin-top: 4px;
+  outline: none;
 }
 
 .input-service-order::placeholder {
@@ -791,8 +801,7 @@ input.input-service-order {
 }
 
 .input-height {
-  height: 40px;
-  padding-left: 42px;
+  padding: 12px 12px 12px 42px;
 }
 
 .form-header {
